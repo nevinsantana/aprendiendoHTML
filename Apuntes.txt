@@ -1,0 +1,6 @@
+<a>
+atributos:
+	href
+	target: puede contener:
+		_blank: abrir página en una nueva pestaña o ventana
+		_self: abrir la página en la que se encuentra actualmente, esta se encuentra por defecto

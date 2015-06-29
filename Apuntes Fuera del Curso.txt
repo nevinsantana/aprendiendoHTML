@@ -15,3 +15,7 @@ Esta permitido definir el width y el height de las imagenes dentro de la misma e
 El atributo alt se usa cuando no es posible mostrar el elemento en pantalla, así que en su lugar, muestra el texto, esto serviría por ejemplo para personas con capacidades diferentes, entonces, en su lugar, en lugar de ver la imágen, la podría "escuchar" con un lector de páginas
 
 El siguiente es HTML Headings
+
+No usar headings sólo para hacer el texto mas grande o en negritas, usarlo para cosas que si sean títulos o los temas que se quieren dar en las páginas web
+
+El tag "<pre>" funciona para que se puedan detectar los espacios en blanco y salto de línea insertados directamente en el código.

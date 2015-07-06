@@ -12,7 +12,8 @@ Se puede (y se debe) usar el atributo "title" en los <p> para decir de que es de
 
 Esta permitido definir el width y el height de las imagenes dentro de la misma etiqueta, claro, sin el uso de style
 
-El atributo alt se usa cuando no es posible mostrar el elemento en pantalla, así que en su lugar, muestra el texto, esto serviría por ejemplo para personas con capacidades diferentes, entonces, en su lugar, en lugar de ver la imágen, la podría "escuchar" con un lector de páginas
+El atributo alt se usa cuando no es posible mostrar el elemento en pantalla, así que en su lugar, muestra el texto,
+esto serviría por ejemplo para personas con capacidades diferentes, entonces, en su lugar, en lugar de ver la imágen, la podría "escuchar" con un lector de páginas
 
 El siguiente es HTML Headings
 
@@ -45,6 +46,50 @@ computercode: Existen los siguientes elementos para representar código en html, 
 
 <style> siempre debe de ir dentro de <head> si se estan aplicando estilos internos
 
+Diferentes estados de los links para cambiar sus estilos:
+
+a:link
+a:visited
+a:hover
+a:active
+
+El atributo "target" se ocupa así:
+<a href=" ... " target="_blank">
+existen diferentes resultados para target:
+
+_blank	Abre el documento linkeado en una nueva ventana o pestaña
+_self	Abre el documento linkeado en el mismo logar donde fue clickeado
+_parent	En el frame padre
+_top	En todo el tamaño de la página
+
+bookmarks
+Se usan para ir a una parte específica de la página
+
+Cuando se inserta una imagen como link, se tiene que especificar siempre un borde:0 para prevenir un borde negro en IE9
+
+elemento con el id deseado
+<a href="#irAlid">
+
+Se pueden añadir bookmarks desde una página diferente, pero lo cargará en la parte deseada:
+
+<a href="html_tips.htm#tips">
+
+Image Maps
+
+usando <map> hace que una sola imágen tenga áreas clickeables
+
+ejemplo
+
+<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+
+En imágenes, siempre, pero siempre se tiene que usar el atributo alt
+si no será un código no válido
 
 
 

@@ -19,3 +19,90 @@ El siguiente es HTML Headings
 No usar headings sólo para hacer el texto mas grande o en negritas, usarlo para cosas que si sean títulos o los temas que se quieren dar en las páginas web
 
 El tag "<pre>" funciona para que se puedan detectar los espacios en blanco y salto de línea insertados directamente en el código.
+
+<q> sirve para señalar citas cortas, esto hace que ponga el texto contenido entre comillas
+
+<blockquote> sirve para señalar citas largas, esto hace que ponga el sangria
+
+<abbr> para abreviaciones, el significado de la abreviacion se tendrá que poner dentro del atributo tittle, es decir <abbr title="significado de la aberviación">SDLA</abbr>
+
+<address cite=""> contendrá la información de algun contacto del documento o del articulo, lo pone en italicas
+
+<cite> define el titulo de algún trabajo, y lo cambia a italica
+
+<bdo> cambia la dirección en que se imprimen las palabras, ejemplo, en ves de escribir hola con <bdo dir="rtl">hola<bdo> imprimiria aloh
+computercode: Existen los siguientes elementos para representar código en html, taless como:
+
+<kbd> Define entrada de teclado
+
+<samp> Define salida de computadora
+
+<code> Define código de programación
+
+<var> Define variable matemática.
+
+
+
+<style> siempre debe de ir dentro de <head> si se estan aplicando estilos internos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

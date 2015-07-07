@@ -92,34 +92,112 @@ En imágenes, siempre, pero siempre se tiene que usar el atributo alt
 si no será un código no válido
 
 
+Para definir bordes dentro de una tabla, se deben de asignar a todos los elementos de la misma, de la siguiente forma:
+
+table, th, td{
+	border: 1px solid black;
+}
+
+Para unir todos los bordes, por ejemplo de una tabla, se ocupa:
+
+border-collapse: collapse;
+
+border-spacing	sirve para asignar espacio entre las celdas de una tabla (si se tiene un border-collapse, border-spacing no tendra efecto)
+
+
+la propiedad colspan se ocupa para poner varias columnas a una sola, por ejemplo, a la columna telefonos se le pueden poner dos columnas debajo.
+
+<th colspan="2">Telefonos</th>
+
+Se puede realizar lo mismo, pero con filas:
+
+<th rowspan="2"></th>
+
+<caption>Leyenda de la tabla</caption>
+
+
+Se pueden definir diferentes estilos para las <ul> :
+
+list-style-type:disc
+list-style-type:circle
+list-style-type:square
+list-style-type:none
+
+Y también se puede para las <ol>, pero no es un estilo:
+
+<ol type="1">
+<ol type="A">
+<ol type="a">
+<ol type="I">
+<ol type="i">
+
+También existen las listas de descripción, las cuales se definen con:
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
 
 
 
+las listas pueden ser anidadas:
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+    <li>Black tea</li>
+    <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+Es posible imprimir listas en forma horizontal con css
+ul#menu li {
+    display:inline;
+}
+
+HTML5 ya ofrece etiquetas para ortenar la página web:
+
+<header></header> (no confundir con <head></head>)
+
+<nav></nav> (como un menú con las diversas páginas del sitio web)
+
+<section></section> (para ingresar el contenido de la página en cuestión)
+
+<footer></footer> (implícito)
+
+
+<iframe src=" ... "></iframe> Sirve para crear una página dentro de una página
+
+un <iframe> puede ser objetivo de target=" ... " de un <a> :
+
+<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+
+<p><a href="http://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+
+Existen tres formas de insertar un color en html:
+
+Código Hexadecimal:
+#000000
+#FFFFFF
+
+RGB (red, green, blue):
+rgb(0,0,0)
+rbg(255,255,255)
+
+Nombre de los colores:
+white
+black
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+La etiqueta <noscript>texto deseado</noscript> funciona para verificar que el navegador acepta Java Script, y si no lo acepta
+ofrecer a los usuarios un contenido sin javascript
 
 
 

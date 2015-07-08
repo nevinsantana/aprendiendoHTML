@@ -199,14 +199,89 @@ black
 La etiqueta <noscript>texto deseado</noscript> funciona para verificar que el navegador acepta Java Script, y si no lo acepta
 ofrecer a los usuarios un contenido sin javascript
 
+siempre colocar en la etiqueta <html lang="es-MX">
+
+siempre se tienen que usar estos <meta> tags:
+
+<meta name="keywords" content="HTML, CSS, JavaScript" />
+<meta name="description" content="Venta de artefactos fotoluminiscentes" />
+<meta charset="UTF-8" />
+<meta name="author" content="Nevin Santana" />
+<link href="estiloPropuesta.css" rel="stylesheet" type="text/css" />
+
+
+El tamaño por defecto de un <input type="text" /> es de 20 caracteres
+
+Se pueden usar los tags <fieldset><legend>Descripcion</legend></fieldset> para agrupar los campos
+dentro de un form que esten relacionados entre sí. (se le puede tambien dar estilos)
+
+el tamaño de un text area se puede definir por sus atributos rows="" y cols=""
+
+
+Se pueden usar las etiquetas <datalist><option></option></datalist> para poner dentro de un input
+la lista de las opciones mas usadas dependiendo de lo que se requiera, ejemplo:
+
+<input list="browsers" name="browser">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+
+en la etiqueta <select> además se pueden definir las <option> mediante <optgroup>, pone subtitulos
+a cada separación
+
+
+Se debe de poner la etiqueta <label for="inputDesado">Ejemplo</label> para referirse al input
+al que pertenece esa descripción
+
+Ya existe el <input type="color"> me facilitará la vida
+
+<input type="range"> crea una linea de rango seleccionable, se debe de poner un min y un max
+
+<input type="month"> te genera el mes y el año mediante una ventanilla de selección
+<input type="week">
+<input type="time">
+<input type="datetime-local">
 
 
 
+<input type="tel"> unicamente soportado por safari, se usa para iphones
 
 
 
+		EL ATRIBUTO readonly="readonly" SE OCUPA PARA QUE EL USUARIO NO PUEDA
+		ESCRIBIR EN EL INPUT, PERO EL VALOR CONTENIDO SI SE PUEDE MANUPULAR!!!!
+
+El atributo maxlenght="" especifica el numero mayor de caracteres que se pueden introducir dentro
+de un input
+
+autocomplette"ya sea 'on' u 'off'" sirve para autocompletar los campos con texto ingresado antes para
+inputs con el mismo nombre, se puede ocupar tanto en inputs como en forms
 
 
+		EL ATRIBUTO formaction="linkDestino.php" funciona para tener un segundo 				submit dentro de un form, sin afectar el funcionamiento que tenga el 
+		<form action="linkPrincipal.php">
+
+		EL ATRIBUTO formenctype="ejemplo/codificacion" sirve para que cuando exista un
+		form method="POST" se pueda codificar un input en específico
+		son mas usados para subir imagenes al servidor
+
+		EL ATRIBUTO formmethod="POST ó GET" se puede ocupar para poner un método
+		diferente a un input, cuando ya se tiene uno definido por el form
+
+		El ATRIBUTO formtarget sirve para cambiar el target que el form va a ocupar, por 		
+		ejemplo, en lugar de ocupar un _self se puede cambiar por un _blank
+		formtarget="_blank"
+
+		EL ATRIBUTO multiple se puede usar por ejemplo para subir varios archivos en lugar
+		de solo uno
+
+		EL ATRIBUTO pattern sirve para evaluar el texto introducido por el usuario, 
+		por ejemplo que el usuario solo pueda usar letras y sólo si pone 3
 
 
 

@@ -336,7 +336,19 @@ Video:
 Audio:
 	.mp3
 
+<video controls>
+	<source src="..." type="video/mp4" />
+</video>
 
+<audio>
+	<source src="..." type="audio/mpeg">
+</audio>
+
+con la etiqueta <object> aparte de importar  plug-ins, tambien se pueden importar otras páginas html
+
+Para guardar la página en memoria caché, es necesario poner en la etiqueta html lo siquiente:
+
+<html manifest="demo.appcache">
 
 
 
